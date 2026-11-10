@@ -3,7 +3,7 @@
 在线读：[ziyetsui.github.io/karpathy-llm-manual](https://ziyetsui.github.io/karpathy-llm-manual/)
 
 - `index.html`：离线网页版（搜索、勾选清单、图片放大，单文件内嵌全部图片）
-- `manual.pdf`：355 页 PDF
+- `manual.pdf`：359 页 PDF
 
 这本手册以 Andrej Karpathy《Neural Networks: Zero to Hero》9 节课程的英文自动字幕与官方代码为主干，整理成 13 个可执行步骤：从标量求导、micrograd、bigram/MLP、BatchNorm、手写反传，到字符 GPT、BPE 分词器与 GPT-2 124M 复现。
 

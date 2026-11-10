@@ -197,7 +197,7 @@
       </nav>
       <section class="intro" id="overview" aria-label="阅读前先看">
         <!-- INTRO_HTML_START: Markdown 一级书名后第三行写手册类型；阅读说明、路线图和画像/条件均为 Markdown ##，HTML 视觉层级如下：先写 <h2>阅读说明</h2>，集中说明作者自述数字、规则时效、无结果承诺和虚构示例；紧接 <h2>路线图</h2>（标题可写“30 天路线图”等），按周或阶段列出要做的事，每一步链到对应 #section-...，表下一句写这一阶段先不做什么、以后再看什么并链到附录；然后用 <h3> 写定制版的本次条件，或通用版的“本手册按以下读者画像编写”和“条件不同时怎么调”。不要另写“目录”：侧栏与打印目录由模板自动生成。只填可信、已转义的 HTML；不得放脚本、事件属性、远程资源。 -->
-<section class="section-body concepts-front">
+        <section class="section-body concepts-front">
 <h2 id="section-concepts-front">先建立直觉：13 步关键词、具象例子与类比</h2>
 <p>先把每一步想象成一个看得见的过程，再进入操作。下面集中保留每一步的关键词、人话解释、类比、微型例子和容易误解的地方。类比与演算是助手整理的学习辅助，不是讲者原话。</p>
 <p><a href="#section-intro">直接阅读原手册</a></p>
@@ -2109,11 +2109,11 @@ If you've made it this far, you're now a pro at LLM Tokenization! Sadly, you're 
 <p>G1：GPU 与预算未知，影响完整 GPT-2 训练；不阻碍前 9 步及小规模验证。先测每步耗时，再用“总步数 × 实测单步时间”估时。</p>
 <p>G2：自动字幕可能把 tanh、BatchNorm、GPT、张量维数识别错。以对应代码和实际画面核对关键符号；不要把英文识别错词当作数学结论。</p>
 <p>G3：基础模型只续写文本，不承诺问答能力。完整训练质量依赖数据、token 预算和评估口径，不能只看生成的一段流畅文字。</p>
-<!-- INTRO_HTML_END -->
+        <!-- INTRO_HTML_END -->
       </section>
       <div id="sections">
         <!-- SECTIONS_HTML_START: 每章用 <details class="manual-section" id="section-唯一安全ID" open><summary><span class="section-title">标题</span></summary><div class="section-body">正文</div></details>。步骤标题用“步骤 1 …”，S1 仅为站内来源；操作与判断步骤都写一句话目标 <p class="step-goal">、3–5 条动作清单（判断步骤包含输入/理由/反例/下一动作）、<p class="step-done">可观察的做完标准；代表性案例用 <div class="case-card"> 写起点/做法/自述结果/来源，可套用模板的占位须注明虚构。正文来源标记用一个 <span class="source-markers">[<a class="source-ref" id="cite-o1-1" href="#source-o1">O1</a>、<a class="source-ref" id="cite-s1-1" href="#source-s1">S1</a>]</span> 组，重复引用的 cite ID 必须唯一。清单用 <label class="check-item"><input type="checkbox" data-check-id="全书唯一且稳定的安全ID"><span>事项</span></label>。章节互引只指向已有 #section-...；有真实来源 URL 时外链用 target="_blank" rel="noopener noreferrer"。案例作者有已核对头像时在引用旁使用 <span class="source-credit"><img src="data:image/png;base64,..." alt="作者昵称">作者昵称</span>，无头像则只留昵称。代码块用 <pre><code class="language-可选语言">已做 HTML 文本转义的代码或提示词</code></pre>，无语言时省略 class；行内代码用 <code>已转义文本</code>，不得把 Markdown 的 ``` 围栏原样写进 HTML。图片只用同目录相对路径或 data:image/png/jpeg/webp;base64,...；相对图片须和 HTML 一起交付。不要插入远程资源、script、iframe 或内联事件属性。 -->
-<details class="manual-section" id="section-schedule" open><summary><span class="section-title">建议日程与实验节奏</span></summary><div class="section-body">
+        <details class="manual-section" id="section-schedule" open><summary><span class="section-title">建议日程与实验节奏</span></summary><div class="section-body">
 <p>下面是助手估算的 6 周学习安排，按项目默认每周 3 天、每天 8 小时，共 144 小时。包含约 18 小时 38 分钟视频和 125 小时 22 分钟阅读、编码、诊断与复盘；长训练的无人值守等待单列，不按视频时长推算。</p>
 <div class="table-wrap"><table>
 <thead>
@@ -6752,11 +6752,11 @@ python train_gpt2.py                 # 训练 GPT-2 124M
 <div class="checklist"><label class="check-item"><input type="checkbox" data-check-id="s13-15"><span>最终报告包含真实范围，没有用演示输出代替完整训练证明。</span></label></div>
 
 </div></details>
-<!-- SECTIONS_HTML_END -->
+        <!-- SECTIONS_HTML_END -->
       </div>
       <section class="sources" id="sources" aria-label="来源、缺口与验证范围">
         <!-- SOURCES_HTML_START: 每条来源设与正文标记相符的 id="source-o1" 等，并放 <a class="source-backref" href="#cite-o1-1">回到正文</a>（重复引用至少回首次出现处）；保留来源定位、适用范围、未核缺口与真实试用状态；签名链接不得写入网页。 -->
-<h2>来源、缺口与验证范围</h2>
+        <h2>来源、缺口与验证范围</h2>
 <p>课程逐字稿是YouTube英文自动字幕排版稿，保留原语序；不是人工听写。原始JSON3、视频元数据与SHA-256保存在本集edit/_raw/，不随成品网页加载。每课独立Markdown/SRT在transcripts/。全9课约198172英文词，193个官方章节已建索引。</p>
 <p>生财MCP已用activityManualSearch检索“大模型”“Karpathy”“模型训练”；检索到的主要为API接入、Vibe Coding和应用教程，未取得可替代本课程的从零训练GPT手册。它是资料检索接口，并没有本次可调用的“上传全部逐字稿自动生成一本书”工具；本手册制作与导出由field-manual-customizer技能执行。不把搜索摘要当作已读全文或课程技术证据。</p>
 <p>真实读者完整试用：not_tested。GPT-2 124M完整预算训练与CUDA速度优化：未实跑。局部数学与结构检查记录另见交付代码说明，只支持对应局部结论。</p>
@@ -6777,7 +6777,7 @@ python train_gpt2.py                 # 训练 GPT-2 124M
 <div class="source-entry" id="source-o15"><p><strong>O15｜karpathy/ng-video-lecture</strong></p><p><a href="https://github.com/karpathy/ng-video-lecture" target="_blank" rel="noopener noreferrer">官方仓库</a>；快照提交 <code>52201428ed7b46804849dea0b3ccf0de9df1a5c3</code>；取得日期2026-10-29。</p><p>用途：核对真实文件、代码、原练习、采样前缀及视频后的勘误。完整代码快照见交付目录 <code>code/ng-video-lecture/</code>；保留原许可证。当前提交不是视频录制时点的保证，差异在正文说明。</p><p><a class="source-backref" href="#cite-o15-1">回到正文</a></p></div>
 <div class="source-entry" id="source-o16"><p><strong>O16｜karpathy/makemore</strong></p><p><a href="https://github.com/karpathy/makemore" target="_blank" rel="noopener noreferrer">官方仓库</a>；快照提交 <code>988aa59e4d8fefa526d06f3b453ad116258398d4</code>；取得日期2026-10-29。</p><p>用途：核对真实文件、代码、原练习、采样前缀及视频后的勘误。完整代码快照见交付目录 <code>code/makemore/</code>；保留原许可证。当前提交不是视频录制时点的保证，差异在正文说明。</p><p><a class="source-backref" href="#cite-o16-1">回到正文</a></p></div>
 <div class="source-entry" id="source-o17"><p><strong>O17｜SolidGoldMagikarp (plus, prompt generation)</strong></p><p><a href="https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation" target="_blank" rel="noopener noreferrer">原文</a>；2023-02-05；2026-10-29 经 Jina Reader 读取公开正文。该页面是第8课直接转展示的研究材料，仅用来复核表中输入的复杂字形、问号数量与措辞。课程截图仍来自视频原帧，不把现行网页冒充视频录制画面。原始快照 _raw/glitch-original.md。</p><p><a class="source-backref" href="#cite-o17-1">回到正文</a></p></div>
-<!-- SOURCES_HTML_END -->
+        <!-- SOURCES_HTML_END -->
       </section>
     </main>
   </div>
